@@ -1,0 +1,9 @@
+soundcard
+sounddevice
+numpy
+wave
+requests
+googletrans
+deepl
+langdetect
+tkinter
