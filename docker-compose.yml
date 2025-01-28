@@ -1,0 +1,15 @@
+services:
+  whisper:
+    image: onerahmet/openai-whisper-asr-webservice:v1.4.1-gpu
+    environment:
+      ASR_MODEL: small
+      ASR_ENGINE: openai_whisper
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
