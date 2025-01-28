@@ -1,0 +1,11 @@
+{
+    "font_name": "Comic Sans MS",
+    "font_size": 24,
+    "font_color": "yellow",
+    "translation": true,
+    "deepl_api": "api_key",
+    "language": "english",
+    "audio_threshold": 0.01,
+    "text_expiry": 3.0,
+    "window_opacity": 0.8
+}
